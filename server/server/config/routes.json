@@ -1,0 +1,13 @@
+{
+    "routes": [
+      {
+        "method": "POST",
+        "path": "/client/create",
+        "handler": "client.create",
+        "config": {
+          "policies": []
+        }
+      }
+    ]
+  }
+  
