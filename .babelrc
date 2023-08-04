@@ -1,0 +1,13 @@
+{
+    "presets": [
+      ["env", { "modules": false }],
+      "react",
+      "stage-2",
+      ["@babel/preset-react", {"runtime": "automatic"}, "@babel/preset-env"]
+    ],
+    "plugins": [
+      "transform-runtime",
+      "transform-class-properties",
+      "react-hot-loader/babel"
+    ]
+  }

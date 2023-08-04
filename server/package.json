@@ -7,6 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
+    "test": "jest",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -17,7 +18,7 @@
     "stripe": "^12.2.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Mustapha Ait Hamou"
   },
   "strapi": {
     "uuid": "a135a9e9-8149-4e1a-908f-8c24cfed7e5d"
